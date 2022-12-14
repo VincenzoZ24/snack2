@@ -24,15 +24,7 @@
 			$message = 'ACCESSO NEGATO';
 		}
 	}
-    // if (isset($_GET['nome'])) {
-	// 	$nome = $_GET['nome'];
-
-	// 	if (strlen($nome) > 3) {
-	// 		$message1 = 'OK nome';
-	// 	} else {
-	// 		$message1 = 'KO nome';
-	// 	}
-	// }
+ 
 ?>
 	<form action="" method="get">
 		<label for="mail">
