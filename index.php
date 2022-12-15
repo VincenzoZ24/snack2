@@ -12,9 +12,9 @@
 <body>
 <?php
 	if (isset($_GET['mail'])) {
-		$mail = $_GET['mail'];
-        $nome = $_GET['nome'];
-        $eta = $_GET['eta'];
+		$mail = isset($_GET['mail']);
+        $nome = isset($_GET['nome']);
+        $eta = isset($_GET['eta']);
 
 		$pos_at = strpos($mail, '@');
 
